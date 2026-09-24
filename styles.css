@@ -11,3 +11,8 @@
 @media(max-width:520px){.shell,.topbar{width:calc(100% - 30px)}.hero h1{font-size:3.6rem}.hero-meta{gap:12px;font-size:.56rem}.printer-stage{height:390px}.printer{left:8%;right:7%;top:17%;bottom:11%}.printer-base{padding:12px}.screen{width:92px}.section-heading h2,.process-copy h2{font-size:2.7rem}.feature-grid{gap:10px}.feature-card{min-height:205px}.feature-card h3{margin-top:42px}.process-visual{height:310px}.orbit{width:230px;height:110px}.orbit-two{width:300px;height:190px}.coming-inner{display:block}.coming-badge{margin:35px 0 0}.coming-inner:after{right:-7%;font-size:10rem}.footer-note{width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 :focus-visible{outline:3px solid var(--orange-light);outline-offset:3px}
+
+/* Portada fotográfica del prototipo 3DC */
+.printer-stage{background:linear-gradient(110deg,rgba(16,27,29,.2),rgba(16,27,29,.04)),url("assets/3dc-cover.jpg") center/cover}
+.printer-stage:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(16,27,29,.34),transparent 62%),linear-gradient(0deg,rgba(16,27,29,.45),transparent 40%);pointer-events:none}
+.printer{opacity:.22}
